@@ -1,0 +1,37 @@
+public void exemploLocal() {
+    int idade = 25; // Variável local
+    System.out.println("Idade: " + idade);
+}
+Variáveis de Instância:
+
+java
+Copiar código
+public class Pessoa {
+    String nome; // Variável de instância
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+}
+Variáveis de Classe (Estáticas):
+
+java
+Copiar código
+public class Contador {
+    static int contador = 0; // Variável de classe
+
+    public Contador() {
+        contador++;
+    }
+}
+Constantes:
+
+java
+Copiar código
+public class Constantes {
+    public static final double PI = 3.14159; // Constante
+
+    public void mostrarPi() {
+        System.out.println("PI: " + PI);
+    }
+}
